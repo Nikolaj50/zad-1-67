@@ -1,0 +1,14 @@
+* {
+ font-size: 37pt;
+ background-color: brown;   
+}
+
+p.klasa_nieuniwersalna_mish {
+    font-size: 35pt;
+    color: red;
+}
+
+.klasa_nieuniwersalna_mish {
+    font-size: 24pt;
+    color: green;
+}
