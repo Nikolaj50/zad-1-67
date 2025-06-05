@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Mishchenko</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        /* Górny różowy pasek z powtarzanym obrazkiem poziomo */
+        p#zero_mishchenko {
+            margin: 0;
+            padding: 30px 0 0 0;
+            background-color: pink;
+            background-image: url('logo_male_mishchenko.png');
+            background-repeat: repeat-x;
+            font-size: 20pt;
+            font-family: Arial;
+            color: red;
+        }
+
+        /* Środkowy pomarańczowy pasek z dużym logiem po prawej u góry */
+        p#jeden_mishchenko {
+            margin: 0;
+            padding: 0;
+            background-color: peachpuff;
+            background-image: url('logo_mishchenko.png');
+            background-repeat: no-repeat;
+            background-position: right top;
+            font-size: 60pt;
+            font-family: Arial;
+            color: blue;
+        }
+
+        /* Dolny zielony pasek z małym logiem powtarzanym pionowo po lewej */
+        p#dwa_mishchenko {
+            margin: 0;
+            padding: 0;
+            background-color: lightgreen;
+            background-image: url('logo_male_mishchenko.png');
+            background-repeat: repeat-y;
+            background-position: left bottom;
+            font-size: 30pt;
+            font-family: Arial;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <p id="zero_mishchenko">
+        obraz powtarzany w kierunku poziomym obraz powtarzany w kierunku poziomym obraz powtarzany w kierunku poziomym
+    </p>
+
+    <p id="jeden_mishchenko">
+        obraz w górnym<br>prawym rogu tła
+    </p>
+
+    <p id="dwa_mishchenko">
+        obraz w dolnym lewym rogu obraz w dolnym lewym rogu obraz w dolnym lewym rogu obraz w dolnym lewym rogu
+    </p>
+
+</body>
+</html>
+<!-- Mikolai Mishchenko -->
